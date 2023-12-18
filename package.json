@@ -1,0 +1,24 @@
+{
+  "name": "cypresswithtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rimraf --glob ./cypress/report/mochawesome-report/*.json",
+    "test": "cypress run",
+    "posttest": "npm run merge-reports && npm run generate-htmlreport",
+    "merge-reports": "mochawesome-merge ./cypress/report/mochawesome-report/*.json > ./FinalReport.json",
+    "generate-htmlreport":"marge FinalReport.json --reportDir ./cypress/report/ --inline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
