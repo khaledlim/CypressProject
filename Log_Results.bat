@@ -1,4 +1,4 @@
-PS C:\Users\klimam\OneDrive - EDENRED\Bureau\CypressWithTypescript> npm run test
+PS C:\Users\PC\OneDrive - EDENRED\Bureau\CypressWithTypescript> npm run test
 
 > cypresswithtypescript@1.0.0 pretest
 > rimraf --glob ./cypress/report/mochawesome-report/*.json
