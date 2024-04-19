@@ -1,4 +1,4 @@
-PS C:\Users\PC\OneDrive - EDENRED\Bureau\CypressWithTypescript> npm run test
+PS C:\Users\PC\OneDrive - Bureau\CypressWithTypescript> npm run test
 
 > cypresswithtypescript@1.0.0 pretest
 > rimraf --glob ./cypress/report/mochawesome-report/*.json
@@ -26,7 +26,7 @@ For more information, see https://on.cypress.io/bad-browser-policy
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ Cypress:        13.6.1                                                                         │
   │ Browser:        Electron 114 (headless)                                                        │
-  │ Node Version:   v21.0.0 (C:\Users\klimam\AppData\Local\nodejs-v21\node.exe)                    │
+  │ Node Version:   v21.0.0 (C:\Users\AppData\Local\nodejs-v21\node.exe)                    │
   │ Specs:          3 found (basic.cy.ts, GoogleSearch.cy.ts, login.cy.ts)                         │
   │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -41,7 +41,7 @@ For more information, see https://on.cypress.io/bad-browser-policy
 
   1 passing (2s)
 
-[mochawesome] Report JSON saved to C:\Users\klimam\OneDrive - EDENRED\Bureau\CypressWithTypescript\cypress\report\mochawesome-report\mochawesome.json
+[mochawesome] Report JSON saved to C:\Users\OneDrive - Bureau\CypressWithTypescript\cypress\report\mochawesome-report\mochawesome.json
 
 
   (Results)
@@ -69,7 +69,7 @@ For more information, see https://on.cypress.io/bad-browser-policy
 
   2 passing (10s)
 
-[mochawesome] Report JSON saved to C:\Users\klimam\OneDrive - EDENRED\Bureau\CypressWithTypescript\cypress\report\mochawesome-report\mochawesome_001.json
+[mochawesome] Report JSON saved to C:\Users\OneDrive - Bureau\CypressWithTypescript\cypress\report\mochawesome-report\mochawesome_001.json
 
 
   (Results)
@@ -98,7 +98,7 @@ For more information, see https://on.cypress.io/bad-browser-policy
 
   1 passing (3s)
 
-[mochawesome] Report JSON saved to C:\Users\klimam\OneDrive - EDENRED\Bureau\CypressWithTypescript\cypress\report\mochawesome-report\mochawesome_002.json
+[mochawesome] Report JSON saved to C:\Users\OneDrive - Bureau\CypressWithTypescript\cypress\report\mochawesome-report\mochawesome_002.json
 
 
   (Results)
@@ -145,5 +145,5 @@ For more information, see https://on.cypress.io/bad-browser-policy
 
 
 ✓ Reports saved:
-C:\Users\klimam\OneDrive - EDENRED\Bureau\CypressWithTypescript\cypress\report\FinalReport.html
-PS C:\Users\klimam\OneDrive - EDENRED\Bureau\CypressWithTypescript>
+C:\Users\OneDrive - Bureau\CypressWithTypescript\cypress\report\FinalReport.html
+PS C:\Users\OneDrive - Bureau\CypressWithTypescript>
